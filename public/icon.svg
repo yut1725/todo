@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Deadline To-Do">
+  <rect width="512" height="512" rx="112" fill="#0F1B2B"/>
+  <path d="M154 112h204v42c0 57-33 87-73 112 40 25 73 55 73 112v42H154v-42c0-57 33-87 73-112-40-25-73-55-73-112v-42Z" fill="none" stroke="#F2A65A" stroke-width="32" stroke-linejoin="round"/>
+  <path d="M196 154h120c0 49-25 68-60 90-35-22-60-41-60-90Zm0 224c0-49 25-68 60-90 35 22 60 41 60 90H196Z" fill="#F2A65A"/>
+</svg>
