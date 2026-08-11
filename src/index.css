@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'IBM Plex Sans Thai', 'Sora', sans-serif;
+  background:
+    radial-gradient(1200px 500px at 15% -10%, rgba(242, 166, 90, 0.10), transparent 60%),
+    radial-gradient(900px 600px at 100% 0%, rgba(79, 163, 160, 0.12), transparent 55%),
+    #0F1B2B;
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(242, 166, 90, 0.35);
+}
+
+/* visible keyboard focus, kept subtle but real */
+:focus-visible {
+  outline: 2px solid #F2A65A;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
